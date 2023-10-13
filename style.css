@@ -1,0 +1,161 @@
+body {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+#box1  {
+    padding: 20px;
+    color: #fff;
+    background: #005777;
+    margin: 0 0 30px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+#box2{
+    display: block;
+    margin: 20px 0 10px 0;
+}
+
+#container {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+#first_estimate {
+    /* bottom: 5px; */
+    /* position: relative; */
+}
+
+.breaker {
+    clear: both;
+    overflow: hidden;
+    height: 0;
+}
+
+#lgd_out_pg_pass, #lgd_out_str_m, #lgd_out_pg_opt {
+    width: 100%;
+}
+
+#logged_out_generator {
+}
+
+#lgd_out_pg_pass, #lgd_out_str_m {
+    text-align: center;
+}
+
+#lgd_out_pg_pass {
+    height: 40px;
+    font-size: x-large;
+    font-weight: bold;
+    background: none;
+    border: none;
+}
+
+#logged_out_generator {
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    color: red;
+}
+
+div.generate_button {
+    width: 100%;
+    text-align: center;
+}
+
+div.generate_button input {
+    padding: 6px;
+    clear: both;
+}
+
+#lgd_out_pg_pass {
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+
+#complexity {
+    position: relative;
+    left: 0px;
+    font-weight: bold;
+    padding: 15px;
+    padding-bottom: 10px;
+    /* margin-top: 30px; */
+    cursor: default;
+    color: white;
+    background-color: #D0D0D0;
+    text-align: center;
+}
+
+div.char_type {
+    float: right;
+    margin-right: 10px;
+    /* width: 90px; */
+    /* font-size: 12px; */
+    /* color: #c2c2c2; */
+}
+
+.char_type_text {
+    float: right;
+}
+
+.char_type_valid {
+    color: #2cb117 !important;
+    font-weight: bold;
+}
+
+#char_count {
+    font-weight: bold;
+    /* bottom: 2px; */
+    position: relative;
+    /* font-size: 14px; */
+    text-align: left;
+}
+
+div.chars_holder {
+    position: relative;
+    padding-top: 13px;
+    clear: both;
+}
+
+div.estimate {
+    float: left;
+    border: solid 1px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+div.result {
+    margin-top: 10px;
+    /* font-size: 13px; */
+    /* height: 100px; */
+    /* border-color: #D0D0D0; */
+    padding-top: 15px;
+}
+
+.col_left {
+    text-align: center;
+}
+
+.col_right {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.small_text {
+    clear: both;
+    border-top: none;
+    text-align: center;
+    /* font-size: 11px; */
+}
