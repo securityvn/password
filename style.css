@@ -5,6 +5,7 @@ body {
     padding: 0;
     margin: 0;
     font-size: 14px;
+    background: radial-gradient(circle, rgb(195 232 255) 0%, rgb(65 159 217) 100%);
 }
 
 #box1  {
